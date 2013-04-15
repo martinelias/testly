@@ -13,7 +13,6 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -23,12 +22,19 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<?php require $_GET['page'].'.php'; ?>
+<p>Hello world! This is HTML5 Boilerplate.</p>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/main.js"></script>
 
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src='//www.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 </body>
 </html>

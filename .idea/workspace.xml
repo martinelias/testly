@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="cf333c91-31c9-4049-94d1-02001c5fb4d4" name="Default" comment="">
+    <list id="cf333c91-31c9-4049-94d1-02001c5fb4d4" name="Default" comment="" />
+    <list default="true" id="285ac87a-d640-4f89-a9ce-4301537ffdb1" name="804555-48140467 Sisselogimine usernameiga" comment="Add gitignore">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/auth.php" />
@@ -9,15 +10,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/database.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/master_view.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/user.php" />
-    </list>
-    <list default="true" id="285ac87a-d640-4f89-a9ce-4301537ffdb1" name="804555-48140467 Sisselogimine usernameiga" comment="Add default controller. Add redirect function. Enhanced nonexistent controller message.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testly.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366113500194" ignored="false" />
-    <file path="/Dummy.txt" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366187838156" ignored="false" />
+    <file path="/Dummy.txt" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366187938758" ignored="false" />
     <file path="/test.php" changelist="cf333c91-31c9-4049-94d1-02001c5fb4d4" time="1366018863889" ignored="false" />
     <file path="/Request.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366187585942" ignored="false" />
     <file path="/.htaccess" changelist="cf333c91-31c9-4049-94d1-02001c5fb4d4" time="1366022975160" ignored="false" />
@@ -28,8 +26,6 @@
     <file path="/user.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366108312084" ignored="false" />
     <file path="/auth.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366114113798" ignored="false" />
     <file path="/auth_view.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366112922258" ignored="false" />
-    <file path="$PROJECT_DIR$/classes/database.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366187250892" ignored="false" />
-    <file path="$PROJECT_DIR$/config.php" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366187624375" ignored="false" />
     <file path="/.gitignore" changelist="285ac87a-d640-4f89-a9ce-4301537ffdb1" time="1366187916703" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
@@ -95,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="51" selection-start="410" selection-end="410" vertical-scroll-proportion="-5.0185184">
+            <state line="14" column="61" selection-start="358" selection-end="358" vertical-scroll-proportion="0.36050156">
               <folding />
             </state>
           </provider>
@@ -339,12 +335,16 @@
       <created>1366187842016</created>
       <updated>1366187842016</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add gitignore">
+      <created>1366187942930</created>
+      <updated>1366187942930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
         <option name="APIKey" value="6bd057817de2a637fc8aad7a921b6462" />
-        <commitMessageFormat>{number}</commitMessageFormat>
+        <commitMessageFormat>[{number}]</commitMessageFormat>
         <password />
         <option name="loginAnonymously" value="false" />
         <option name="projectId" value="804555" />
@@ -377,14 +377,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23548387" sideWeight="0.9990512" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2548387" sideWeight="0.9990512" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07257204" sideWeight="0.7645161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07257204" sideWeight="0.7451613" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33614865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -441,7 +441,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add default controller. Add redirect function. Enhanced nonexistent controller message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -460,6 +460,7 @@
     <MESSAGE value="Add basic MVC functionality" />
     <MESSAGE value="Add controller check to index.php. Create user class." />
     <MESSAGE value="Add default controller. Add redirect function. Enhanced nonexistent controller message." />
+    <MESSAGE value="Add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -528,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="410" selection-end="410" vertical-scroll-proportion="-5.0185184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="43" selection-start="105" selection-end="105" vertical-scroll-proportion="-4.137931">
@@ -559,6 +553,13 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="61" selection-start="358" selection-end="358" vertical-scroll-proportion="0.36050156">
           <folding />
         </state>
       </provider>

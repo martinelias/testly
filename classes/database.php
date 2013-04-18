@@ -19,7 +19,7 @@ function get_one($sql, $debug = FALSE)
 	}
 	$q = mysql_query($sql) or exit (mysql_error());
 
-	if (mysql_num_rows($q) == FALSE) {
+	if (mysql_num_rows($q) === FALSE) {
 		exit ($sql);
 	}
 	$result = mysql_fetch_row($q);

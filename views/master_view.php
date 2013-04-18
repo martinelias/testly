@@ -18,13 +18,20 @@
 
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link rel="stylesheet" href="assets/css/main.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-	<sytle>
+	<style>
+		html, body {
+		/*background: url(http://www.wallpapersforest.com/files/mordor-1.jpg);*/
+			background:url(http://www.wallpapersforest.com/files/mordor-1.jpg) no-repeat;
+			background-size:100% 100%;
+			background-position: top;
+		height: 100%;
+		}
 		body(
 		padding-top:60px;
 		)
-	</sytle>
+
+	</style>
 </head>
 <body>
 
@@ -36,13 +43,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="#">Project name</a>
+			<a class="brand" href="#">Fancy Rings Inc.</a>
 
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="<?= BASE_URL ?>tests">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="<?= BASE_URL ?>auth/logout">Logi v2lja</a></li>
+					<li><a href="<?= BASE_URL ?>auth/logout">Walk out from Mordor</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -50,7 +57,7 @@
 	</div>
 </div>
 
-<div>
+<div class="container-fluid">
 	<?php
 	require 'views/'.$request->controller.'_'.$request->action.'_view.php';
 	?>

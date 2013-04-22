@@ -5,10 +5,9 @@
 		$("#tabs").tabs();
 	});
 </script>
-
-<div id="tabs">
+<div id="tabs" style="opacity: 0.55">
 	<ul>
-		<li><a href="#tabs-1">Nunc tincidunt</a></li>
+		<li><a href="#tabs-1">General</a></li>
 		<li><a href="#tabs-2">Proin dolor</a></li>
 		<li><a href="#tabs-3">Aenean lacinia</a></li>
 	</ul>
@@ -25,12 +24,76 @@
 		</form>
 	</div>
 	<div id="tabs-2">
-		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis
-			scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros
-			massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros
-			vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere
-			viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere,
-			felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+		<label>Kysimus</label>
+		<textarea name="question_text"><?=$test['question_text']?></textarea>
+		<label>Tyyp</label>
+		<select name="type_id" id="type_id">
+			<option value="1">true/false</option>
+			<option value="2" selected="selected">Multichoice</option>
+			<option value="3">Multiresponse</option>
+			<option value="4">Fill da blank</option>
+		</select>
+		<div id="answer-template">
+			<div id="type_id_1" class="answer-template">
+				<label>Sisesta 2 vastust ja m2rgi 2ra 6ige</label>
+				<input type="radio" name="tf.correct" value="0" checked="checked">
+				<textarea name="answer.0">True</textarea>
+				<input type="radio" name="tf.correct" value="1">
+				<textarea name="answer.1">False</textarea>
+			</div>
+			<div id="type_id_2">
+				<label>Sisesta varjandid, m2rgi 6ige</label>
+				<div id="multiple-choice-options">
+					<div class="answer-option">
+						<input type="radio" name="mc.correct" value="0" checked ="checked">
+						<textarea name="mc.answer.0" rows="2" cols="10"></textarea>
+					</div>
+					<div class="answer-option">
+						<input type="radio" name="mc.correct" value="1">
+						<textarea name="mc.answer.1" rows="2" cols="10"></textarea>
+					</div>
+					<div class="answer-option">
+						<input type="radio" name="mc.correct" value="2">
+						<textarea name="mc.answer.2" rows="2" cols="10"></textarea>
+					</div>
+					<div class="answer-option">
+						<input type="radio" name="mc.correct" value="3">
+						<textarea name="mc.answer.3" rows="2" cols="10"></textarea>
+					</div>
+
+				</div>
+			</div>
+			<div id="type_id_3" class="answer-template">
+				<label>Sisesta varjandid, m2rgi 6iged.</label>
+				<div id="multiple-response-answer-option">
+					<div class="answer-option">
+						<input type="checkbox" name="mr.correct" value="1">
+						<textarea name="mr.answer.0"></textarea>
+					</div>
+					<div class="answer-option">
+						<input type="checkbox" name="mr.correct" value="1">
+						<textarea name="mr.answer.1"></textarea>
+					</div>
+					<div class="answer-option">
+						<input type="checkbox" name="mr.correct" value="1">
+						<textarea name="mr.answer.2"></textarea>
+					</div>
+					<div class="answer-option">
+						<input type="checkbox" name="mr.correct" value="1">
+						<textarea name="mr.answer.3"></textarea>
+					</div>
+				</div>
+			</div>
+			<div id="type_id_4">
+				<label>Sisesta võimalikud vastuse variandid(Üks vastus ühte kasti)</label>
+				<div id="fill-in-the-blank-answer-option">
+					<div class="answer-option">
+						<input type="checkbox" name="fitb.correct" checked="checked" disabled="true">
+						<textarea name="fitb.answer.0"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id="tabs-3">
 		<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi

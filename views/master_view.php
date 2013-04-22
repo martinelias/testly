@@ -41,7 +41,8 @@
 		}
 
 		body, html {
-			background:url(http://www.wallpapersforest.com/files/mordor-1.jpg);
+			background:url(http://www.wallpapersforest.com/files/mordor-1.jpg)no-repeat center center fixed;
+			background-size:100%;
 			height: 100%;
 
 		}
@@ -62,7 +63,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="#">Project name</a>
+			<a class="brand" href="#">Ring Depository</a>
 
 			<div class="nav-collapse collapse">
 				<ul class="nav">

@@ -63,7 +63,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="#">Ring Depository</a>
+			<a class="brand" href="#">Mt. Doom Ring Depository</a>
 
 			<div class="nav-collapse collapse">
 				<ul class="nav">

@@ -70,7 +70,7 @@ no-repeat center center fixed; background-size:100%;">
 
 <div class="container">
 
-	<form class="form-signin" method="post">
+	<form class="form-signin" method="post" style="opacity: 0.6">
 		<h2 class="form-signin-heading">You shall not pass!</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Middle Earth ID">
 		<input name="password" type="password" class="input-block-level" placeholder="Speak friend and enter">

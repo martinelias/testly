@@ -35,5 +35,17 @@ class tests
 
 		require 'views/master_view.php';
 	}
-
+	function add() {
+		global $request;
+		$this->scripts[] = 'test_add_edit.js';
+		$test=array(
+			'test_id'   =>'',
+			'name'   =>'',
+			'introduction'   =>'',
+			'conclusion'   =>'',
+			'passcode'   =>'',
+			'question_text'   =>'',
+		);
+		require'views/master_view.php';
+	}
 }

@@ -11,7 +11,7 @@
 	<link href="../assets/css/main.css" rel="stylesheet">
 	<style type="text/css">
 				html, body {
-			height: 100%;
+			height: 90%;
 			background-color: #000000;
 		}
 		body {
@@ -70,14 +70,14 @@ no-repeat center center fixed; background-size:100%;">
 
 <div class="container">
 
-	<form class="form-signin" method="post" style="opacity: 0.6">
+	<form class="form-signin" method="post" style="opacity: 0.4">
 		<h2 class="form-signin-heading">You shall not pass!</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Middle Earth ID">
 		<input name="password" type="password" class="input-block-level" placeholder="Speak friend and enter">
 		<label class="checkbox">
 			<input type="checkbox" value="remember-me"> From shire
 		</label>
-		<button class="btn btn-large btn-primary" type="submit">Simply walk into Mordor</button>
+		<center><button class="btn btn-large btn-primary" type="submit">Simply walk into Mordor</button></center>
 	</form>
 
 </div>

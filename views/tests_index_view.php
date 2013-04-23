@@ -1,6 +1,7 @@
-<p><a class="btn btn-large btn-primary" href="https://www.google.ee">Lisa uus test </a>
+<p><center><a class="btn btn-large btn-primary" href="<?BASE_URL?>tests/add">Lisa uus test</a></center>
 </p>
 <table id="tests-table" class="table table-bordered table striped" style="opacity: 0.6">
+
 	<thead>
 	<th>Testi nimi</th>
 	<th>Koostaja</th>
